@@ -1,0 +1,53 @@
+input 1:
+3 Espresso Americano Cappuchino
+25 50 50
+3 5
+50
+Coffee Cappuchino
+10
+10
+10
+Coffee Espresso
+5
+5
+Refund money
+5
+100
+Cancel
+
+correct output:
+Ready to work
+The amount: 50
+Take the coffee Cappuchino
+Ready to work
+The amount: 10
+The amount: 20
+The amount: 30
+Take the coffee Espresso
+Take the change: 10 * 0 rub.,  5 * 1 rub.
+Ready to work
+The amount: 5
+The amount: 10
+Take the money: 10 * 1 rub.,  5 * 0 rub.
+Ready to work
+The amount: 5
+Take the money back, no change
+Turned off
+
+input 2:
+3 Espresso Americano Cappuchino
+25 50 50
+3 5
+50
+SHOWTREE
+
+correct output:
+Ready to work
+The amount: 50
+Coffee_machine is ready
+    Data_reader is ready
+    Data_output is ready
+    Control_panel is ready
+    Money_accepting is ready
+    Coffee_dispenser is ready
+    Money_refund is ready
